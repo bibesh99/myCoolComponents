@@ -1,0 +1,173 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Caveat:wght@400..700&display=swap');
+
+.anton-sc-regular {
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.caveat-header {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.caveat-banner {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+  }
+
+  
+  .--swiper-navigation-color{
+    background-color: #fff;
+  }
+
+  .--swiper-pagination-color{
+        background-color: #fff;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .mySwiper2 .swiper-slide {
+    opacity: 0;
+    transition: opacity 0.3s ease-in 0.2s;
+  }
+  
+  .mySwiper2 .swiper-slide-active {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.2s;
+  }
+  
+  
+  .autoplay-progress {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .autoplay-progress svg {
+    --progress: 0;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    stroke-width: 4px;
+    stroke: rgb(0, 0, 0);
+    fill: none;
+    stroke-dashoffset: calc(125.6px * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    transform: rotate(-90deg);
+  }
+  
+
+  
+  .mySwiper {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+  
+  .mySwiper .swiper-slide {
+    width: 10%;
+    height: 100%;
+    opacity: 0.4;
+    transition: opacity 0.3s ease-in 0.2s; /* Adjust the duration (0.3s) and delay (0.2s) as needed */
+  }
+  
+  .mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.2s; /* Ensure the same transition settings */
+  }
+  
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
+  .mySwiper2 .autoplay-progress {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    z-index: 10;
+    width: 48px;
+    height: 48px; /* Adjust dimensions as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .mySwiper2 .autoplay-progress svg {
+    --progress: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    stroke-width: 4px;
+    stroke: rgb(0, 0, 0);
+    fill: none;
+    stroke-dashoffset: calc(125.6px * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    transform: rotate(-90deg);
+  }
+  
+
+  .mySwiper .progressBar {
+
+    height: 10px;
+  }
+  
+  .mySwiper .progressBar{
+    width: 0;
+ 
+  }
+
+    
+  .mySwiper .swiper-slide-thumb-active .progressBar {
+    width: 100%;
+    transition: width 7s ease; 
+  }
