@@ -43,7 +43,7 @@ const ClickablePaginationSlider = () => {
   
 
   return (
-    <div>
+    <div className=''>
       <div className="w-full h-full flex items-center justify-center md:text-3xl p-9">
         Smarter scheduling for teams who conduct meetings at scale
       </div>

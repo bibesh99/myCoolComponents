@@ -13,14 +13,14 @@ export default function Home() {
           <h1 className=" text-white text-center">
             We make scheduling easier than ever for you
           </h1>
-          <div className="z-40" style={{height: "70vh", overflow: "hidden"}}>
+          <div className="" style={{height: "70vh", overflow: "hidden"}}>
             <TwoColumnParallax/>
           </div>
   
         </div>
       </div>
-      <div className="h-full w-full z-50">
-        <ClickablePaginationSlider/>
+      <div className="h-full w-full ">
+        <ClickablePaginationSlider/> 
       </div>
     </main>
   );
